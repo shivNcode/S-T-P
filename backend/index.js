@@ -1,7 +1,6 @@
-import React from 'react'
+import React from "react";
 function Index() {
-    return (<h1>backend yet to be implemented</h1>  );
-    
+  return <h1>backend yet to be implemented</h1>;
 }
 
 export default Index;
