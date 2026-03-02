@@ -1,12 +1,12 @@
 import React from "react";
 function Hero() {
   return <>
-    <div className="container">
-        <div className="row p-3" style={{ backgroundColor: "#2397E8" , borderRadius:"4px"}}>
+    <div className="container-fluid" style={{ backgroundColor: "#387ED1" , borderRadius:"1px"}}>
+        <div className="row p-3" >
              <div className="col-2">
 
              </div>
-            <div className="col-4">
+            <div className="col-4 m-4">
                 <h4>
                     Support Portal
                 </h4>
@@ -14,12 +14,15 @@ function Hero() {
                 <input className="form-control" placeholder="Search for support articles"></input>
                 <br>
                 </br>
-                <a href=" " className="m-2">Track account opening</a>
-                <a href=" " className="m-2">Track segment activation</a>
-                <a href=" " className="m-2">Intraday margins</a>
+                <a href=" " className="m-2" style={{color:"white"}}>Track account opening</a>
+                <a href=" " className="m-2" style={{color:"white"}}>Track segment activation</a>
+                <a href=" " className="m-2" style={{color:"white"}}>Intraday margins</a>
 
-                <a href=" " className="m-2">Kite user manual</a>
-                <a href=" " className="m-2">Learn how to create a ticket</a>
+                <a href=" " className="m-2" style={{color:"white"}}>Kite user manual</a>
+                <a href=" " className="m-2" style={{color:"white"}}>Learn how to create a ticket</a>
+                <br></br>
+                    <br></br>
+
             </div>
             <div className="col-4">
                 <a href=" ">
